@@ -1,0 +1,19 @@
+{
+	"name": "termapp",
+	"version": "1.0.0",
+	"description": "Backend for a terminal app",
+	"main": "index.js",
+	"scripts": {
+		"test": "npx mocha",
+		"dev": "npx nodemon index.js",
+		"start": "node index"
+	},
+	"author": "Roshan Bista",
+	"license": "MIT",
+	"dependencies": {
+		"express": "^4.16.4"
+	},
+	"devDependencies": {
+		"nodemon": "^1.18.9"
+	}
+}
